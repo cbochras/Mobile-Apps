@@ -1,0 +1,2 @@
+rootProject.name = "MealyApp"
+include ':app'

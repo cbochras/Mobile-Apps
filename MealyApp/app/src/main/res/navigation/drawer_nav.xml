@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_nav"
+    app:startDestination="@id/dayScreen">
+
+    <fragment
+        android:id="@+id/dayScreen"
+        android:name="com.example.mealy.screens.DayScreen"
+        android:label="Weekly Menu"
+        tools:layout="@layout/fragment_day_screen">
+        <action
+            android:id="@+id/action_dayScreen_to_dayMenuScreen"
+            app:destination="@id/dayMenuScreen"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/messMenu"
+        android:name="com.example.mealy.screens.MessMenu"
+        android:label="Mess Menu"
+        tools:layout="@layout/fragment_mess_menu" />
+    <fragment
+        android:id="@+id/dayMenuScreen"
+        android:name="com.example.mealy.screens.DayMenuScreen"
+        android:label="Menu"
+        tools:layout="@layout/fragment_day_menu_screen">
+        <argument
+            android:name="dayName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_dayMenuScreen_to_mealAddScreen"
+            app:destination="@id/mealAddScreen" />
+    </fragment>
+    <dialog
+        android:id="@+id/mealAddScreen"
+        android:name="com.example.mealy.screens.MealAddScreen"
+        android:label="fragment_meal_add_screen"
+        tools:layout="@layout/fragment_meal_add_screen" >
+        <argument
+            android:name="day"
+            app:argType="string" />
+        <argument
+            android:name="time"
+            app:argType="string" />
+    </dialog>
+</navigation>
