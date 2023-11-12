@@ -1,0 +1,27 @@
+ .logInBtn {
+     margin-top: 20px;
+ }
+
+ .loginForm {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-21%, 110%);
+ }
+
+ .registerForm {
+     text-align: center;
+     margin-top: 10em;
+ }
+
+ .registerFormInputs {
+     margin-top: 5px;
+ }
+
+ .password {
+     margin: 5px; 
+ }
+
+ .queenRegisterFormInput {
+     margin-top: 1em;
+ }

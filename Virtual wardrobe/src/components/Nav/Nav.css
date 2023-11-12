@@ -1,0 +1,76 @@
+.avatar {
+  margin-top: 5px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger {
+  display: inline-block;
+}
+
+.image-cropper {
+  display: inline-block;
+  position: relative; 
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.logged-out-nav-title {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  color: #f2f2f2;
+  padding-left: 10px;
+  font-family: 'Quicksand';
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 38px;
+}
+
+.logout-link {
+  float: left;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  font-size: 15px;
+  /* these last two make the logout button in
+  the nav bar look like another link */
+  border: none;
+  cursor: pointer;
+  outline:0;
+}
+
+.nav {
+  margin: 0 0 10px;
+  background: rgb(16,152,205);
+  background: -moz-linear-gradient(54deg, rgba(16,152,205,1) 0%, rgba(16,191,205,0.8435749299719888) 100%);
+  background: -webkit-linear-gradient(54deg, rgba(16,152,205,1) 0%, rgba(16,191,205,0.8435749299719888) 100%);
+  background: linear-gradient(54deg, rgba(16,152,205,1) 0%, rgba(16,191,205,0.8435749299719888) 100%);overflow: hidden;
+}
+
+.nav-title {
+    font-weight: 700;
+    display: inline-block;
+    color: #f2f2f2;
+    font-family: 'Quicksand';
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 38px;
+    margin-left: -10px;
+}
+
+.nav-link:hover {
+  background-color: #008183;
+}
+
+.nav-right {
+  float: right;
+}

@@ -1,0 +1,18 @@
+.addItemForm {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.itemHeader {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.kindRadio {
+    padding-top: 10px;
+}
+
+.addImage {
+    display: inline-block;
+    object-fit: cover;
+  }

@@ -1,0 +1,116 @@
+html,
+body,
+#react-root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.addItemForm {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.addItemHeader {
+  padding-left: 30px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.itemDescription {
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.descriptionBtns {
+  margin-top: 60px;
+}
+
+.descriptionHeader {
+  text-align: center;
+}
+
+.descriptionImg {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 275px;
+  width: 200px;
+}
+
+
+/* --------------------------------------------------------------------------------
+Container
+-------------------------------------------------------------------------------- */
+
+.container {
+  padding: 20px;
+}
+
+/* --------------------------------------------------------------------------------
+Button
+-------------------------------------------------------------------------------- */
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.btn_asLink_register {
+  padding: 0;
+  border-width: 0;
+  border-bottom: 1px solid #444;
+  border-radius: 0;
+  background: none;
+  font: inherit;
+  color: #444;
+  margin-top: 475px;
+}
+
+.btn_asLink_login {
+  padding: 0;
+  border-width: 0;
+  border-bottom: 1px solid #444;
+  border-radius: 0;
+  background: none;
+  font: inherit;
+  color: #444;
+  margin-top: 100px;
+}
+
+/* --------------------------------------------------------------------------------
+Alert
+-------------------------------------------------------------------------------- */
+
+.alert {
+  box-sizing: border-box;
+  padding: 15px 10px;
+  margin: 15px 0;
+  border: 2px solid #e01616;
+  background-color: #efefef;
+  border-radius: 3px;
+  color: #e01616;
+  font-size: 0.8rem;
+}
+
+/* --------------------------------------------------------------------------------
+Form Treatment
+-------------------------------------------------------------------------------- */
+
+.formPanel {
+  box-sizing: border-box;
+  width: 400px;
+  max-width: 100%;
+  padding: 25px;
+  margin: 0 auto 20px;
+  border-radius: 3px;
+}

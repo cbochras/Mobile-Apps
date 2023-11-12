@@ -1,0 +1,19 @@
+.dateWorn {
+    margin-bottom: 10px ;
+}
+
+.descriptionHeader {
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.descriptionImg, img {
+    display: inline-block;
+    object-fit: cover;
+    height: 275px;
+    width: 275px;
+}
+
+.descriptionBody {
+    margin-top: 10px;
+}

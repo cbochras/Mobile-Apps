@@ -1,0 +1,40 @@
+.dressMeImages, img {
+    display: inline-block;
+    object-fit: cover;
+}
+
+.dressMe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.dressMeBottom {
+  margin-top: 10px;
+}
+
+.dressMeBtn {
+  margin-top: 20px;
+}
+
+.dressMeHeader {
+    text-align: center;
+}
+
+.newDressMeUser {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+  }
+
+.inactive {
+  display: none;
+}
+
+.active {
+  display: block;
+}
